@@ -1,0 +1,76 @@
+body {
+    background: #16222A;
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
+    background: linear-gradient(to right, #3A6073, #16222A);
+}
+@font-face {
+    font-family: 'Cocobiker';
+    src: crs="cocobiker.ttf";
+}
+.textoAnimado{
+    font-family: 'cocobiker';
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.letra{
+    transition: 0.4s;
+    transform: translateX();
+    cursor: grab;
+    color: blue;
+}
+.letra:hover{
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg, hsl(19, 90%, 52%), hsl(56, 100%, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#output {
+    border: 1px solid #ffffffcb;
+    padding: 10px;
+    min-height: 100px;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #378571;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: left;
+}
+
